@@ -15,7 +15,7 @@ public class MyLinkedListTest{
 
     @Before
     public void fillList() {
-        list = new MyLinkedList<String>();
+        list = new MyLinkedList<>();
         for (int i = 0; i < strings.length; i++) {
             list.add(strings[i]);
         }
