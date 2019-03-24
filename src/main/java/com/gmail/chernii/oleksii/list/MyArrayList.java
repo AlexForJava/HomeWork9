@@ -6,8 +6,8 @@ import java.util.Arrays;
  * Created by Space on 05.03.2019.
  */
 public class MyArrayList<E> implements List<E> {
-    private E[] elements;
     private static final int DEFAULT_LENGTH = 10;
+    private E[] elements;
     private int size;
 
     public MyArrayList() {

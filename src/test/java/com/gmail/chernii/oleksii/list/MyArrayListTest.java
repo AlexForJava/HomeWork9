@@ -12,7 +12,7 @@ public class MyArrayListTest extends Assert {
 
     @Before
     public void fillList() {
-        list = new MyArrayList<String>();
+        list = new MyArrayList<>();
         for (int i = 0; i < strings.length; i++) {
             list.add(strings[i]);
         }
